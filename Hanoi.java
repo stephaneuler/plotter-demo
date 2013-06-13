@@ -55,8 +55,7 @@ public class Hanoi {
 			for (int s = 0; s < N; s++) {
 				if (tuerme[n][s] != 0) {
 					int scheibe = tuerme[n][s];
-					int r =  255 * scheibe / N;
-					plotter.nextVector();
+	 				plotter.nextVector();
 					plotter.setDataColor( colors[scheibe-1]);
 					plotter.add(x - scheibe / 2., s + 1);
 					plotter.addD(scheibe, 0);
