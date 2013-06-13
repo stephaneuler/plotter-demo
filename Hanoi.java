@@ -12,7 +12,7 @@ import plotter.Sleep;
 import plotter.TextObject;
 
 public class Hanoi {
-	Graphic graphic = new Graphic("Türme von Hanoi");
+	Graphic graphic = new Graphic("TÃ¼rme von Hanoi");
 	Plotter plotter = graphic.getPlotter();
 	int sleepTime = 30;
 	int N = 22;
@@ -74,7 +74,7 @@ public class Hanoi {
 			//System.out.println(n + ". Scheibe von " + von + " nach " + nach);
 			ziehe( von, nach );
 			zeichnen();
-			plotter.setStatusLine("Zuge Nr. " + anzahlSchritte);
+			plotter.setStatusLine("Zug Nr. " + anzahlSchritte);
 			graphic.repaint();
 			Sleep.sleep( sleepTime);
 			lege(n - 1, zwischen, nach, von);
