@@ -1,4 +1,4 @@
-#Image comparator
+#summary Image comparator
 
 = Introduction =
 
