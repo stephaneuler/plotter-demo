@@ -8,7 +8,7 @@ This application finds for a given image the most similar one in a list of refer
 = Details =
 
 The application consists of
-  * CompView.java   the main class with GUI
+  * CompView.java the main class with GUI
   * Dist.java a class to hold one distance together with an index 
   * FeatureType.java enumeration with feature types (currently only RGB and HSB)
   * Histogram.java represent a RGB or HSB histogram
