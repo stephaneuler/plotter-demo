@@ -13,4 +13,5 @@ The application consists of
   * FeatureType.java enumeration with feature types (currently only RGB and HSB)
   * Histogram.java represent a RGB or HSB histogram
   * ImageFileListPanel.java the file list in the GUI
+  * code.google.com/p/plotter-demo/w/best.png
  
