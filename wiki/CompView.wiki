@@ -2,7 +2,7 @@
 
 = Introduction =
 
-This application finds for a given image the most similar one in a list of reference images
+This application finds for a given image the most similar one in a list of reference images. The comparison is based on color histograms.
 
 
 = Details =
@@ -13,5 +13,9 @@ The application consists of
   * FeatureType.java enumeration with feature types (currently only RGB and HSB)
   * Histogram.java represent a RGB or HSB histogram
   * ImageFileListPanel.java the file list in the GUI
-  * https://code.google.com/p/plotter-demo/source/browse/wiki/best.png
+
+The two images below are used as place holder when the application is started. They should be copied into a directory images in the appropriate path.
+
+https://plotter-demo.googlecode.com/svn/wiki/test.png
+https://plotter-demo.googlecode.com/svn/wiki/best.png
  
