@@ -52,10 +52,10 @@ public class Damen {
 	 * @return the font or null if no matching font was found
 	 */
 	private static Font testFonts() {
-		// erfrage alle verfügbaren Fonts
+		// erfrage alle verfÃ¼gbaren Fonts
 		GraphicsEnvironment ge = GraphicsEnvironment
 				.getLocalGraphicsEnvironment();
-		// das Feld fonts enthält alle fonts
+		// das Feld fonts enthÃ¤lt alle fonts
 		Font[] fonts = ge.getAllFonts();
 		System.out.println("total of " + fonts.length + " fonts found");
 
@@ -161,6 +161,7 @@ public class Damen {
 
 	public void zeichneSchachbrett() {
 
+    // zeichne Schachbrett
 		String border = Shapes.rect(plotter, 0.5, 0.5, N + .5, N + .5);
 		plotter.setDataColor(border, Color.BLUE);
 
