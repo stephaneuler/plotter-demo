@@ -59,6 +59,7 @@ public class Sudoko {
 			e1.printStackTrace();
 		}
 
+    // loop over all puzzles
 		for (int n = 0; n < 50; n++) {
 			Sudoko e = new Sudoko();
 			e.read(lnr);
