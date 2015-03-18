@@ -1,0 +1,18 @@
+# Introduction #
+
+This application finds for a given image the most similar one in a list of reference images. The comparison is based on color histograms.
+
+
+# Details #
+
+The application consists of
+  * CompView.java the main class with GUI
+  * Dist.java a class to hold one distance together with an index
+  * FeatureType.java enumeration with feature types (currently only RGB and HSB)
+  * Histogram.java represent a RGB or HSB histogram
+  * ImageFileListPanel.java the file list in the GUI
+
+The two images below are used as place holder when the application is started. They should be copied into a directory images in the appropriate path.
+
+![https://plotter-demo.googlecode.com/svn/wiki/test.png](https://plotter-demo.googlecode.com/svn/wiki/test.png)
+![https://plotter-demo.googlecode.com/svn/wiki/best.png](https://plotter-demo.googlecode.com/svn/wiki/best.png)
